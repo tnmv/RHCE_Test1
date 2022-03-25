@@ -1,0 +1,11 @@
+220325013332.393 ERROR 'ansible_navigator.actions.inventory._collect_inventory_details_interactive' Errors were encountered while gathering the inventory:
+220325013406.513 WARNING 'ansible_navigator.actions.run_188c._update_args' Configuration errors encountered, rolling back to previous configuration.
+220325013406.513 WARNING 'ansible_navigator.actions.run_188c._update_args' Command provided: 'run'
+220325013406.513 WARNING 'ansible_navigator.actions.run_188c._update_args' A playbook is required when using the run subcommand
+220325013517.302 WARNING 'ansible_navigator.actions.doc._update_args' Configuration errors encountered, rolling back to previous configuration.
+220325013517.302 WARNING 'ansible_navigator.actions.doc._update_args' Command provided: 'doc'
+220325013517.303 WARNING 'ansible_navigator.actions.doc._update_args' A plugin name is required when using the doc subcommand
+220325013522.141 WARNING 'ansible_navigator.actions.doc._update_args' Configuration errors encountered, rolling back to previous configuration.
+220325013522.142 WARNING 'ansible_navigator.actions.doc._update_args' Command provided: 'doc'
+220325013522.142 WARNING 'ansible_navigator.actions.doc._update_args' A plugin name is required when using the doc subcommand
+220325013539.434 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ovirt/ovirt/plugins/test/ovirt_proxied_check.py AttributeError (get_docstring): 'AnsibleUnicode' object has no attribute 'get'
