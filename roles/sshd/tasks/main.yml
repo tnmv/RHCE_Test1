@@ -1,0 +1,9 @@
+---
+# tasks file for sshd
+- name: generating of templating
+  template:
+    src: templates/sshd_config.j2
+    dest: /etc/ssh/sshd_config.test
+- name: End of Task
+  debug:
+    msg: "Fin de la tâche"

@@ -1,0 +1,8 @@
+System Memory: {{ ansible_memory_mb['real']['used'] }} MiB
+Processor count: {{ ansible_processor_count }} CPU
+Primary disk size: {{ ansible_devices['nvme0n1']['size']}} MiB
+{% if ansible_devices['sdb'] is defined  %}
+Secondary Disk Size: {{ ansible_devices['sdb']['size']  }} MiB
+{% else %}
+Secondary Disk Size: sdb not available
+{% endif %}

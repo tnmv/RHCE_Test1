@@ -1,0 +1,5 @@
+---
+# vars file for sshd
+ssh_port: 22
+allowed_users: "tenne, junior, root, ansible"
+permitrootlogin: 'Yes'

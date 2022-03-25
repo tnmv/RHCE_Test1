@@ -1,0 +1,18 @@
+ansible1.example.com
+ansible2.example.com
+ansible3.example.com
+ansible4.example.com
+ansible5.example.com
+
+[test]
+ ansible1.example.com
+
+[dev]
+ ansible2.example.com
+
+[prod]
+ ansible[3:4].example.com
+
+[servers:children]
+ dev
+ prod
